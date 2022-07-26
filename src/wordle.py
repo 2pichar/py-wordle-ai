@@ -6,7 +6,7 @@ def unique(seq):
 
 class Wordle:
     def __init__(self):
-        with open('./src/guess_list.txt', 'r') as f:
+        with open('./src/guess_list.txt', 'r', encoding='utf8') as f:
             self.guess_list = f.read().splitlines()
 
 
