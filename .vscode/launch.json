@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Python: runner.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceRoot}/src/runner.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
